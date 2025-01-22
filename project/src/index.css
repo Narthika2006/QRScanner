@@ -1,0 +1,130 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #2c003e, #4a148c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #ddd;
+}
+
+
+div {
+  background: #1e1e2f;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  width: 400px;
+  color: #ddd;
+}
+
+
+h1 {
+  font-size: 24px;
+  color: #bb86fc;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px rgba(187, 134, 252, 0.8);
+}
+
+
+img.QR-img {
+  display: block;
+  margin: 20px auto;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 300px;
+  border: 2px dashed #6a1b9a;
+  border-radius: 8px;
+}
+
+
+.input-label {
+  display: block;
+  margin: 10px 0 5px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: #bb86fc;
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #4a148c;
+  border-radius: 6px;
+  font-size: 14px;
+  background: #2e2e3f;
+  color: #fff;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+input:focus {
+  border-color: #bb86fc;
+  outline: none;
+  box-shadow: 0 0 5px rgba(187, 134, 252, 0.5);
+}
+
+
+button.gen-btn {
+  background: #bb86fc;
+  color: #1e1e2f;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button.gen-btn:hover {
+  background: #9a67ea;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(187, 134, 252, 0.3);
+}
+
+
+button.download {
+  background: #4a148c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button.download:hover {
+  background: #6a1b9a;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(106, 27, 154, 0.3);
+}
+
+
+p {
+  color: #aaa;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+
+@media (max-width: 420px) {
+  div {
+    width: 90%;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+}
